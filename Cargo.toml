@@ -1,9 +1,18 @@
 [package]
 name = "kyoto_protocol"
-version = "0.1.0"
-authors = ["jiachen bai <646329483@qq.com>"]
+version = "0.0.1"
+authors = ["jiachenbai"]
 edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Protocol module for kyoto"
+homepage = "https://github.com/JeepYiheihou/kyoto_protocol"
+repository = "https://github.com/JeepYiheihou/kyoto_protocol"
+readme = "README.md"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bytes = "1.0"
+httparse = "1.3.4"
+serde_json = "1.0"
